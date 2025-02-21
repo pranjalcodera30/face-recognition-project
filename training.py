@@ -23,7 +23,7 @@ def getImagesAndLabels(path):
         for (x,y,w,h) in faces:
             facesamples.append(img_numpy[y:y+h,x:x+w])
             ids.append(id)
-    return facesamples.ids
+    return facesamples ,ids
 
 print("\n [INFO] Training faces.....")
 faces,ids=getImagesAndLabels(path)
