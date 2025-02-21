@@ -10,13 +10,21 @@ faceCascade==cv2.CascadeClassifier(cascadePath)
 font=cv2.FONT_HERSHEY_TRIPLEX
 id=0
 names=[0,1,2,3,4,5]
+
 cam=cv2.VideoCapture(0)
-cam.set(3,640)
-cam.set(4,480)
+cam.set(3, 640)
+cam.set(4, 480)
 
 minW=0.1*cam.get(3)
 minH=0.1*cam.get(4)
 
 while True:
     ret,img=cam.read()
-    
+
+    gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+
+    faces=faceCascade.detectMultiScale(
+        gray,
+        scaleFactor
+
+    )
