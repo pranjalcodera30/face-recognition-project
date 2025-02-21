@@ -7,7 +7,7 @@ cam.set(3, 640)  # Set video width
 cam.set(4, 480)  # Set video height
 
 # Load the pre-trained face detector (make sure the path is correct)
-face_detector = cv2.CascadeClassifier('path_to_directory/haarcascade_frontalface_default.xml')
+face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Prompt user for their ID
 face_id = input('\n Enter user id and press enter: ')
