@@ -1,5 +1,5 @@
 # **Face Recognition Project**
-## ***An AI-powered real-time face detection and recognition system! *** 🤖📸
+##  **An AI-powered real-time face detection and recognition system!** 🤖📸
 
 ### About the Project
 This project is a ***Face Recognition System*** that uses OpenCV's ***LBPH (Local Binary Patterns Histograms)*** algorithm for real-time face detection and recognition. The system detects faces using a ***Haar Cascade Classifier*** and then identifies them based on a pre-trained model.
