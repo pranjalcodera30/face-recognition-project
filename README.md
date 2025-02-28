@@ -83,16 +83,17 @@ Ensure your ***webcam is connected*** and accessible.
 Try changing 
 ```bash
 cv2.VideoCapture(0)
-``` to ```bash
+```
+to 
+```bash
 cv2.VideoCapture(1)
 ```
 if using an ***external webcam.***
 
+## About the Developer
+Hi, I'm ***Pranjal Singh***, an aspiring full-stack developer and AI enthusiast. I’m currently pursuing my undergraduate studies at ***,JIIT Noida, India.***, Combining my love for coding and artificial intelligence, I created this ***,Face Recognition System***, to explore the possibilities of computer vision and deep learning.
 
-
-
-
-
+🚀 GitHub: pranjalcodera30✉️ Email: pranjaljaypee@gmail.com
 
 
 
